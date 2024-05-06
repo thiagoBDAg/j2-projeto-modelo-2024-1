@@ -1,0 +1,13 @@
+@baseUrl = https://8080-marcoweb-j2projetomodel-rya3pcfv47n.ws-us110.gitpod.io/questoes
+
+###
+GET {{baseUrl}}
+
+###
+PUT {{baseUrl}}/1
+Content-Type: application/json
+
+{
+    "enunciado" : "Questão de Teste Alterada",
+    "categoria" : {"id" : 1}
+}
