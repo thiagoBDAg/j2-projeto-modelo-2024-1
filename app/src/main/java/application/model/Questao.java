@@ -27,8 +27,8 @@ public class Questao {
     @JoinColumn(name = "id_categoria", nullable = false)
     private Categoria categoria;
 
-    @OneToMany(mappedBy = "questao")
-    private Set<Opcao> opcoes = new HashSet<Opcao>();
+    //@OneToMany(mappedBy = "questao")
+    //private Set<Opcao> opcoes = new HashSet<Opcao>();
 
     public long getId() {
         return id;
@@ -48,10 +48,10 @@ public class Questao {
     public void setCategoria(Categoria categoria) {
         this.categoria = categoria;
     }
-    public Set<Opcao> getOpcoes() {
-        return opcoes;
-    }
-    public void setOpcoes(Set<Opcao> opcoes) {
-        this.opcoes = opcoes;
-    }
+    // public Set<Opcao> getOpcoes() {
+    //     return opcoes;
+    // }
+    // public void setOpcoes(Set<Opcao> opcoes) {
+    //     this.opcoes = opcoes;
+    // }
 }
