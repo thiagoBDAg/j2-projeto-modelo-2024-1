@@ -11,12 +11,14 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.server.ResponseStatusException;
 
 import application.model.Opcao;
 import application.repository.OpcaoRepository;
 import application.repository.QuestaoRepository;
 
+@RestController
 @RequestMapping("/opcoes")
 public class OpcaoController {
     @Autowired
@@ -41,7 +43,7 @@ public class OpcaoController {
         return result.get();
     }
 
-    @DeleteMapping("{/id}")
+    @DeleteMapping("/{id}")
     public void delete(@PathVariable long id) {
         if(opcoesRepo.existsById(id)) {
             opcoesRepo.deleteById(id);
