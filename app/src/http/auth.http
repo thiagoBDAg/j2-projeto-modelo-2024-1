@@ -1,0 +1,9 @@
+@baseUrl = https://verbose-capybara-xr5447xjw9c5j7-8080.app.github.dev
+
+POST {{baseUrl}}/auth
+Content-Type: application/json
+
+{
+    "nomeDeUsuario": "fulano",
+    "senha": "123456"
+}

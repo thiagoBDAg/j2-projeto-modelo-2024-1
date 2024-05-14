@@ -1,10 +1,14 @@
-@baseUrl = https://8080-marcoweb-j2projetomodel-z01bu7bpo93.ws-us110.gitpod.io
+@baseUrl = https://verbose-capybara-xr5447xjw9c5j7-8080.app.github.dev/
 
 ###
 GET {{baseUrl}}/categorias
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJBUEkgUXVpenplcyIsInN1YiI6ImZ1bGFubyIsImV4cCI6MTcxNTczMzY2MH0.Jqu4rE4XoE82nXoS_NZECqO-nozbQG6oQ0CsVrHlQyg
+
+
 
 ###
 POST {{baseUrl}}/categorias
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJBUEkgUXVpenplcyIsInN1YiI6ImZ1bGFubyIsImV4cCI6MTcxNTczMzY2MH0.Jqu4rE4XoE82nXoS_NZECqO-nozbQG6oQ0CsVrHlQyg
 Content-Type: application/json
 
 {
