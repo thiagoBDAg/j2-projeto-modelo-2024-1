@@ -1,4 +1,4 @@
-@baseUrl = https://verbose-capybara-xr5447xjw9c5j7-8080.app.github.dev
+@baseUrl = https://8080-marcoweb-j2projetomodel-mgnua1ju1io.ws-us114.gitpod.io
 
 POST {{baseUrl}}/auth
 Content-Type: application/json

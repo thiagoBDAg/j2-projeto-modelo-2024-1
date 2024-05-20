@@ -1,14 +1,15 @@
-@baseUrl = https://verbose-capybara-xr5447xjw9c5j7-8080.app.github.dev/
+@baseUrl = https://8080-marcoweb-j2projetomodel-mgnua1ju1io.ws-us114.gitpod.io
+@token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJBUEkgUXVpenplcyIsInN1YiI6ImZ1bGFubyIsImV4cCI6MTcxNjI0MzU2OH0.gt8PrvF_cw0YjVdymBWm0Xog0_sIkVAK2UdzB_fy_cs
 
 ###
 GET {{baseUrl}}/categorias
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJBUEkgUXVpenplcyIsInN1YiI6ImZ1bGFubyIsImV4cCI6MTcxNTczMzY2MH0.Jqu4rE4XoE82nXoS_NZECqO-nozbQG6oQ0CsVrHlQyg
+Authorization: Bearer {{token}}
 
 
 
 ###
 POST {{baseUrl}}/categorias
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJBUEkgUXVpenplcyIsInN1YiI6ImZ1bGFubyIsImV4cCI6MTcxNTczMzY2MH0.Jqu4rE4XoE82nXoS_NZECqO-nozbQG6oQ0CsVrHlQyg
+Authorization: Bearer {{token}}
 Content-Type: application/json
 
 {
